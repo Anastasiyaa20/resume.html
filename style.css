@@ -1,0 +1,87 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилі для заголовка */
+.header__title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.header__subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Стилі для розділу "Про себе" */
+.info-block__title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.info-block__content {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.info-block__content p {
+    margin-bottom: 10px;
+}
+
+/* Стилі для контактів */
+.contact-info {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Стилі для списку навичок */
+.skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills li {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Стилі для освіти та досвіду роботи */
+.education ul,
+.experience ol {
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+
+/* Стилі для зображення */
+.header__photo {
+    border-radius: 50%;
+    margin-right: 20px;
+}
